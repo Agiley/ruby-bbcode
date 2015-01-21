@@ -81,7 +81,7 @@ module RubyBBCode
         :example => '[quote]BBCode is great[/quote]',
         :allow_quick_param => true, :allow_between_as_param => false,
         :quick_param_format => /(.*)/,
-        :param_tokens => [{:token => :author, :prefix => '<strong>', :postfix => ' wrote:</strong>'}]},
+        :param_tokens => [{:token => :author, :prefix => '<strong>', :postfix => ' skrev:</strong>'}]},
       :size => {
         :html_open => '<span style="font-size: %size%px;">', :html_close => '</span>',
         :description => 'Change the size of the text',
